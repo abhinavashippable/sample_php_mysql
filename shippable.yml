@@ -11,8 +11,7 @@ env:
   - foo="var"
   - variable="aaa"
  matrix:
- 
-- secure: r3tzd6A1JKOxSaKwwQZOxmcs/aHcgQHBk/bi9cHkxZlGlAf/FGg8W6Xfd23qxE7LDGuxEft5tuMH8aXZkfxHvG0wEDhzYRjbzO/D7IQNosNBiUNV/BXruFqU+4bdKqrmof5P59HlWS+/k8AHzqbT8SU/+zQ+TT/HmjpAh4KVdvfBml7G6N0aQxwJ9bOKuFkhhzbxDVlJUMuqxVjir9BJK3GPTlF2Zj+Wg/jJm929dllcffHOByvxHz8nwl+p3a+bp/OWWZ1DHRRJhofPGkpZhXw9SFyGgSfaQpvCod3cwxkzzD3AqS3fKFVf9ac9CN0PrOVLuIRhH0gj6qlO4wI4og== 
+  - secure: r3tzd6A1JKOxSaKwwQZOxmcs/aHcgQHBk/bi9cHkxZlGlAf/FGg8W6Xfd23qxE7LDGuxEft5tuMH8aXZkfxHvG0wEDhzYRjbzO/D7IQNosNBiUNV/BXruFqU+4bdKqrmof5P59HlWS+/k8AHzqbT8SU/+zQ+TT/HmjpAh4KVdvfBml7G6N0aQxwJ9bOKuFkhhzbxDVlJUMuqxVjir9BJK3GPTlF2Zj+Wg/jJm929dllcffHOByvxHz8nwl+p3a+bp/OWWZ1DHRRJhofPGkpZhXw9SFyGgSfaQpvCod3cwxkzzD3AqS3fKFVf9ac9CN0PrOVLuIRhH0gj6qlO4wI4og== 
 before_script: 
   - mkdir -p shippable/testresults
   - mkdir -p shippable/codecoverage

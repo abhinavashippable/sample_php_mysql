@@ -11,8 +11,7 @@ env:
   - foo="var"
   - variable="aaa"
  matrix:
-  - secure: JJ2yWuhd4X6sx6gYdFITkl9ljfeceVoCagagRoYEPNmsmH1XwEG3yA7DAXFGUlVZr1iG8D89Gg7FE+mr0vwzsNbOrSYOHeeSLRKXysG4xNsSXzxZ550wkjjP9EqNKd8OTqM1iVJ0+tT0XAg1YAEM3mWvYGyBwjb7iO6dBMbuOeVWkpNkggfWorejr9T2SOyh80huRqaFd0evSBg2L9ZZgwlYBbibPp9FSNtlWUuRuiBz3xjetEPl//x4yKXLhO+81ObgLLurCSjjZECoZmdxjwjJPDdkz95Majy9PR7UomyDgnQmtYMRqAWpJLM0OrpKnnzphEPPqBUEOci1x2E2yQ==
-
+  - secure: UjPEdr1O+/8NkDfpvOqupZku1RVB/5yMh2nF1etf6fcc7UhqElKI8tfu0+6eGQFSIsqYwUdezoa/gJWO2qaaW6MQg48HCn/7FHbeviqhjn8vY/86BphNk+2TBQYCyCGw2sPY+zR6gV+zA/6ugLLxgKiTq8fs8tyXX4IpW6GiI4NehRO6P1S0+V+hcwcGAIC8x218nbW3gJlIGrPIO6IgYxeTHsDFuCGL46pJToVb0rRVHTZUW6Yd34rZRJ6p5kohBxuQycjeX1jyWckqRMGFsBNg8cMCcqH5ePuU+Iusf7/BfQE2pGsmUIXGW0ckhVddokNI+8R2ck0sBL0ev0cGDQ== 
 before_script: 
   - mkdir -p shippable/testresults
   - mkdir -p shippable/codecoverage
